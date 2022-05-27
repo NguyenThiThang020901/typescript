@@ -4,7 +4,7 @@ interface IFlight{
     to:string;
     display():void;
 }
-class Flight implements IFlight{
+class Flight1 implements IFlight{
     flightNo: number;
     from: string;
     to: string;
@@ -18,5 +18,5 @@ class Flight implements IFlight{
         console.log(this.flightNo+" "+this.from+" "+this.to);
         }
 }
-let myFLight = new Flight(12, "Quang Binh", "Da nang");
+let myFLight = new Flight1(12, "Quang Binh", "Da nang");
 myFLight.display();

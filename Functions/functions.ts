@@ -2,7 +2,7 @@ var hello = function (name:string):string{
     return "Hello "+name;
 }
 
-function add(num1:number,num2:number):number{
+function cong(num1:number,num2:number):number{
     return num1+num2;
 }
 

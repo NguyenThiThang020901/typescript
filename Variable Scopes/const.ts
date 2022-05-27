@@ -1,7 +1,7 @@
-const product = function(x:number,y:number):number{
+const product111 = function(x:number,y:number):number{
     return x*y;
 }
 
 
-console.log(product);
+console.log(product111);
 
